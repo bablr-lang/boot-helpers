@@ -7,11 +7,9 @@
   },
   "type": "module",
   "exports": {
-    "./types/instruction": "./lib/types/instruction.js",
-    "./types/regex": "./lib/types/regex.js",
-    "./types/spamex": "./lib/types/spamex.js",
     "./decorators": "./lib/decorators.js",
-    "./symbols": "./lib/symbols.js"
+    "./symbols": "./lib/symbols.js",
+    "./types": "./lib/types.js"
   },
   "files": [
     "lib/**/*.js"
