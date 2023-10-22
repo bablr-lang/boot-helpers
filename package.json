@@ -8,6 +8,7 @@
   "type": "module",
   "exports": {
     "./decorators": "./lib/decorators.js",
+    "./path": "./lib/path.js",
     "./productions": "./lib/productions.generated.js",
     "./symbols": "./lib/symbols.js",
     "./types": "./lib/types.js"
