@@ -20,11 +20,11 @@
     "generate": "babel lib/productions.js --out-file lib/productions.generated.js",
     "clean": "rm lib/productions.generated.js"
   },
-  "dependencies": {},
   "devDependencies": {
     "@babel/cli": "7.22.15",
     "@babel/core": "7.22.20",
     "@babel/plugin-proposal-decorators": "7.22.15",
+    "@babel/plugin-transform-modules-commonjs": "^7.23.0",
     "@babel/plugin-transform-runtime": "^7.22.15",
     "@babel/runtime": "^7.23.2",
     "@bablr/boot": "github:bablr-lang/boot#311977defee968aa8454f9de9c7355fb93df0fc9",

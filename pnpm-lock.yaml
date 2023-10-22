@@ -4,6 +4,7 @@ specifiers:
   '@babel/cli': 7.22.15
   '@babel/core': 7.22.20
   '@babel/plugin-proposal-decorators': 7.22.15
+  '@babel/plugin-transform-modules-commonjs': ^7.23.0
   '@babel/plugin-transform-runtime': ^7.22.15
   '@babel/runtime': ^7.23.2
   '@bablr/boot': github:bablr-lang/boot#311977defee968aa8454f9de9c7355fb93df0fc9
@@ -20,6 +21,7 @@ devDependencies:
   '@babel/cli': 7.22.15_@babel+core@7.22.20
   '@babel/core': 7.22.20
   '@babel/plugin-proposal-decorators': 7.22.15_@babel+core@7.22.20
+  '@babel/plugin-transform-modules-commonjs': 7.23.0_@babel+core@7.22.20
   '@babel/plugin-transform-runtime': 7.23.2_@babel+core@7.22.20
   '@babel/runtime': 7.23.2
   '@bablr/boot': github.com/bablr-lang/boot/311977defee968aa8454f9de9c7355fb93df0fc9
@@ -383,6 +385,18 @@ packages:
     dependencies:
       '@babel/core': 7.23.0
       '@babel/helper-plugin-utils': 7.22.5
+    dev: true
+
+  /@babel/plugin-transform-modules-commonjs/7.23.0_@babel+core@7.22.20:
+    resolution: {integrity: sha512-32Xzss14/UVc7k9g775yMIvkVK8xwKE0DPdP5JTapr3+Z9w4tzeOuLNY6BXDQR6BdnzIlXnCGAzsk/ICHBLVWQ==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0-0
+    dependencies:
+      '@babel/core': 7.22.20
+      '@babel/helper-module-transforms': 7.23.0_@babel+core@7.22.20
+      '@babel/helper-plugin-utils': 7.22.5
+      '@babel/helper-simple-access': 7.22.5
     dev: true
 
   /@babel/plugin-transform-runtime/7.23.2_@babel+core@7.22.20:
