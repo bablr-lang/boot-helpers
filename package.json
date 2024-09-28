@@ -6,6 +6,7 @@
     "node": ">=12.0.0"
   },
   "exports": {
+    "./btree": "./lib/btree.js",
     "./decorators": "./lib/decorators.js",
     "./path": "./lib/path.js",
     "./productions": "./lib/productions.generated.js",
@@ -17,6 +18,9 @@
     "lib/**/*.js"
   ],
   "sideEffects": false,
+  "dependencies": {
+    "@iter-tools/imm-stack": "1.1.0"
+  },
   "devDependencies": {
     "@bablr/eslint-config-base": "github:bablr-lang/eslint-config-base#a49dbe6861a82d96864ee89fbf0ec1844a8a5e8e",
     "enhanced-resolve": "^5.12.0",
