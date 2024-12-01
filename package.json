@@ -12,6 +12,7 @@
     "./productions": "./lib/productions.generated.js",
     "./symbols": "./lib/symbols.js",
     "./template": "./lib/template.js",
+    "./tree": "./lib/tree.js",
     "./types": "./lib/types.js"
   },
   "files": [
